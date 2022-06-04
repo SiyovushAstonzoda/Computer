@@ -1,0 +1,192 @@
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+        
+}
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+  .navbar2{
+    display: flex;
+}
+.container-fluid{
+    padding: 0;
+}
+li{
+    padding-top: 5px;
+    padding-right: 20px;
+    font-weight: 300;
+
+}
+ a{
+    color: black;
+    padding-left: 20px;
+    font-weight: 300;
+
+}
+.back{
+    background-image: url(./images/756255682107418.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    color: white; 
+    display: flex;
+    padding-top: 180px;
+    
+}
+.text-back h1{
+padding: 40px;
+width: 100%;
+font-weight: 350;
+font-size: 4.4em;
+}
+.text-back p{
+    padding: 40px;
+    width: 100%;
+    font-weight: 350;
+    font-size: 1.5em;
+ }
+ .text-back button{
+     height: 9vh;
+     width: 35%;
+     color: black;
+     background-color: transparent;
+     background-color: rgb(238, 230, 230);
+opacity: 0.5;    
+margin-left: 50px;
+border:1px solid lightgrey;
+font-size: 1.2em;
+}
+.text-back button:hover{
+    background-color: rgb(255, 253, 253);
+    opacity: 0.8;    
+    margin-left: 50px;
+}
+.text-back .icons{
+
+    display: flex;
+    align-items: flex-end;
+    height: 20vh;
+    margin-left: 50px;
+    font-size: 1.3em;
+}
+.text-back a {
+    padding-left: 8px;
+    color: gray;
+}
+.text-back a:hover {
+color: white;
+}
+.phone{
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+padding-top: 100px;
+height: 70vh;
+}
+.left{
+    width: 40%;
+}
+.right img{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+}
+.left button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.acha{
+    padding: 80px;
+    text-align: center;
+ }
+ .pad{
+     display: flex;
+     text-align: center;
+ }
+ .quarter .fa-solid{
+     font-size: 60px;
+     padding: 50px;
+ }
+ .designers{
+    text-align: center;
+    padding: 130px 0 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .design-container .content {
+    width: 23%;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 17px;
+  }
+  
+  .design-container img {
+    width: 100%;
+  }
+  
+  .design-container h3,
+  h4,
+  p {
+    padding: 10px;
+  }
+  
+  .design-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .design-container h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    opacity: 0.7;
+  }
+  
+  .design-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .design-container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.design-container button{
+    margin-left: 15px;
+    width: 90%;
+    border: 0;
+    padding: 10px;
+}
+
+.Work p {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.Work p{
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images img{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.images img:hover{
+    opacity: 0.6;
+}
